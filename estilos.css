@@ -338,16 +338,49 @@ body{
         margin: 0;
         max-width: 100%;
     }
+
+    .foto:hover{
+        filter: none;
+    }
+
+    .cuadroGris{
+        top: 60%;
+        left: 14%;
+        opacity: 1;
+    }
     
     .foto2{
         max-width: 100%;
     }
 
     .plan{
+        width: 440px;
+        display: flex;
+        flex-direction: column;
+        border: 1px #0d5adc solid;
+    }
+
+    .parrafo{
         max-width: 100%;
     }
 
     .blog{
         max-width: 100%;
+    }
+
+    .banner{
+        background-color: #0a5cd685;
+        top: 0;
+        left: 0;
+        opacity: 1;
+    }
+
+    .cajaBlanca{
+        z-index: 4;
+        top: 25%;
+        left: 90%;
+        opacity: 1;
+        width: 45px;
+        height: 200px;
     }
 }
